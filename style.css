@@ -1,0 +1,73 @@
+html { 
+  background: url(images/15.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	color: white;
+}
+
+.about{
+	margin-left: 15px
+}
+.profile-info{
+	width: 60%;
+	height:100vh;
+	float: left;
+	padding: 0 30px;
+}
+.social-media img{
+height: 30px;
+margin-right: 15px
+}
+
+.social-media{
+	margin-top: 30px;
+	margin-left:15px;
+
+}
+.profile-info h3{
+	margin-top: 50px;
+	margin-bottom: 15px
+
+}
+.text-area textarea{
+	width: 95%;
+	border: 0;
+	outline:none !important;
+	padding:10px;
+    margin: 2%;
+    background-color: #fff;
+}
+.my-form{
+	padding: 20px
+	
+}
+.my-form.form-group{
+	padding-bottom: 15px;
+}
+.my-form label{
+	display:block;
+}
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width:80%;
+}
+.my-form input[type="send"]{
+	background-color: #333;
+	color:#fff;
+	padding: 10px 15px;
+	border:none;
+	width: 10%
+}
+.block{
+	float: left;
+	width:33.3%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing:border-box;
+	
+}
